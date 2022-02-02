@@ -1,0 +1,34 @@
+*, *:before, *:after {
+margin: 0;
+padding: 0;
+}
+html {
+    box-sizing: border-box;
+    font-family: 'Nerko One', cursive;
+}
+.followers {
+    height: 100vh;
+    width: 100vw;
+    background: linear-gradient(180deg, #1F4AFC 0%, #0022AF 100%);;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    margin: 0 auto;
+    max-width: 450px;
+    height: 100vh;
+}
+.box-text {
+    text-align: center;
+    color: #ffffff;
+}
+.box-text h1{
+    line-height: 150px;
+    font-size: 200px;
+}
+.box-text span{
+    font-size: 50px;
+    letter-spacing: 0.1em;
+}
